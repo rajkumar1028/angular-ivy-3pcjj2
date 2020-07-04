@@ -2,12 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { WeatherServiceService } from '../weather.service';
 
 @Component({
-  selector: 'app-weather-comp',
-  templateUrl: './weather-comp.component.html',
-  styleUrls: ['./weather-comp.component.css']
+  selector: 'app-worldweather',
+  templateUrl: './worldweather.component.html',
+  styleUrls: ['./worldweather.component.css']
 })
-export class WeatherCompComponent implements OnInit {
-lat;
+export class WorldweatherComponent implements OnInit {
+  lat;
 lon;
 weather;
   constructor(private weatherService: WeatherServiceService) {}
@@ -28,5 +28,6 @@ weather;
       })
     }
   }
+
 
 }

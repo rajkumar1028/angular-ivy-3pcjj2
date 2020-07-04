@@ -1,7 +1,12 @@
 p {
   font-family: Lato;
+  
 }
-
+.bro{
+  border: 2px rgb(5, 35, 63);
+  background-color: rgb(35, 209, 209);
+  
+}
 .panel_1
 {
   border: 2px solid rgb(165, 165, 247);
@@ -28,6 +33,7 @@ p {
 .panel_5
 {
   border: 2px solid black;
+  background-color: darkcyan;
     padding: 7px;
 
 }

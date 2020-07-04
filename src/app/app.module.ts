@@ -6,11 +6,12 @@ import {HttpClientModule} from "@angular/common/http";
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { WeatherServiceService } from './weather.service';
-import { WeatherCompComponent } from './weather-comp/weather-comp.component';
+import { WorldweatherComponent } from './worldweather/worldweather.component';
+
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule,HttpClientModule ],
-  declarations: [ AppComponent, HelloComponent, WeatherCompComponent ],
+  imports:      [ BrowserModule, FormsModule,HttpClientModule, ],
+  declarations: [ AppComponent, HelloComponent,WorldweatherComponent],
   bootstrap:    [ AppComponent ],
   providers: [WeatherServiceService]
 })
